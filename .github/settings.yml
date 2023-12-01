@@ -1,0 +1,28 @@
+# Extend default settings for all of my personal repositories defined in .github/settings.yml
+_extends: .github:common-settings.yaml
+
+repository:
+  name: gpt
+  description: Prompts, notebooks, and tools for generative pre-trained transformers.
+
+  topics: >-
+    gpt,
+    transformers,
+    nlp,
+    chatgpt,
+    gpt.mrbro.dev
+
+branches:
+  - name: main
+    protection:
+      required_status_checks:
+        strict: true
+        contexts: []
+      enforce_admins: true
+      required_pull_request_reviews:
+        null
+        # required_approving_review_count: 1
+        # dismiss_stale_reviews: true
+        # require_code_owner_reviews: true
+      restrictions: null
+      required_linear_history: true
