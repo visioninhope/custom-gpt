@@ -8,7 +8,7 @@
     },
   ],
   postUpgradeTasks: {
-    commands: ['pnpm run format'],
+    commands: ['pnpm run format', 'git checkout -- .npmrc'],
     executionMode: 'branch',
   },
 }
