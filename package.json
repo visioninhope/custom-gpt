@@ -13,7 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nextui-org/react": "2.3.3",
+    "@nextui-org/react": "2.3.4",
     "@react-aria/ssr": "3.9.2",
     "clsx": "2.1.0",
     "framer-motion": "11.1.3",
